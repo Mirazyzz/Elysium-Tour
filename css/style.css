@@ -572,7 +572,7 @@ body {
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.2;
   color: #777;
 }
 .heading-primary {
@@ -1579,19 +1579,19 @@ body {
   width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 .header {
-  height: 85vh;
+  height: 95vh;
   background-image: -webkit-gradient(
       linear,
       left top,
       right bottom,
-      from(rgba(126, 213, 111, 0.8)),
-      to(rgba(40, 180, 133, 0.8))
+      from(rgba(126, 213, 111, 0.1)),
+      to(rgba(40, 180, 133, 0.1))
     ),
     url(../img/hero-img.jpg);
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
+      rgba(126, 213, 111, 0.1),
+      rgba(40, 180, 133, 0.1)
     ),
     url(../img/hero-img.jpg);
   background-size: cover;
@@ -1614,8 +1614,8 @@ body {
         linear,
         left top,
         right bottom,
-        from(rgba(126, 213, 111, 0.8)),
-        to(rgba(40, 180, 133, 0.8))
+        from(rgba(126, 213, 111, 0.1)),
+        to(rgba(40, 180, 133, 0.1))
       ),
       url(../img/hero.jpg);
     background-image: linear-gradient(
@@ -1828,14 +1828,14 @@ body {
       linear,
       left top,
       right bottom,
-      from(rgba(126, 213, 111, 0.8)),
-      to(rgba(40, 180, 133, 0.8))
+      from(rgba(126, 213, 111, 0.1)),
+      to(rgba(40, 180, 133, 0.1))
     ),
     url(../img/nat-4.jpg);
   background-image: linear-gradient(
       to right bottom,
-      rgba(126, 213, 111, 0.2),
-      rgba(40, 180, 133, 0.2)
+      rgba(126, 213, 111, 0.1),
+      rgba(40, 180, 133, 0.1)
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
