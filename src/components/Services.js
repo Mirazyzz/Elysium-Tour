@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaMoneyCheck, FaSmile, FaShuttleVan, FaWifi } from 'react-icons/fa';
+import { FaGlobe, FaPlaneDeparture, FaTaxi, FaHotel } from 'react-icons/fa';
 
 import Title from './Title';
 
@@ -7,23 +7,23 @@ export default class Services extends Component {
   state = {
     services: [
       {
-        icon: <FaMoneyCheck />,
-        title: 'Paymnet by card',
+        icon: <FaGlobe />,
+        title: 'Туры',
         info: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
       },
       {
-        icon: <FaSmile />,
-        title: 'Kind people',
+        icon: <FaPlaneDeparture />,
+        title: 'Авиабилеты',
         info: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
       },
       {
-        icon: <FaShuttleVan />,
-        title: 'Free shuttle',
+        icon: <FaTaxi />,
+        title: 'Трансфер',
         info: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
       },
       {
-        icon: <FaWifi />,
-        title: 'Free internet connection',
+        icon: <FaHotel />,
+        title: 'Отели',
         info: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. ',
       },
     ],
